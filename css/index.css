@@ -124,3 +124,23 @@ html,body{
 .donate-btn{
     background-color: purple;
 }
+
+.bold{
+   text-decoration: bolder;
+   color: #ffa600;
+}
+
+
+/* section 3 */
+/* slideshow */
+
+* {box-sizing:border-box}
+
+#sec3{
+    height: 100vh;
+    width: 100vw;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
