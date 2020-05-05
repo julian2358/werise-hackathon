@@ -122,3 +122,8 @@ html,body{
 .donate-btn{
     background-color: purple;
 }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
