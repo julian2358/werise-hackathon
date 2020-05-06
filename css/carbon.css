@@ -1,6 +1,8 @@
+/* NAVBAR */
 
- /* NAVBAR */
-
+html{
+    font-family: 'Oswald', sans-serif;
+ }
  .logo{
     width: 150px;
     height: 150px;
@@ -50,12 +52,12 @@
 
 
 
-
 /* FOOTER */
 
 footer{
     background: whitesmoke;
     padding: 90px 0;
+    color: black;
 }
 
 .footer-container{
