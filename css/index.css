@@ -34,10 +34,17 @@ html,body{
    height: auto;
 }
 
+<<<<<<< HEAD
 #navbar a{
    margin-top: 50px;
    color: #ffa600;
    font-family: 'Anton', sans-serif;
+=======
+#nav ul{
+    list-style-type: none;
+    text-decoration: none;
+ 
+>>>>>>> 06beb9b98735208009a1e96f093e8164a66cc647
 }
 
 #navbar ul{
@@ -119,8 +126,8 @@ html,body{
 }
 
 #side-img{
-    width: 500px;
-    height: 700px;
+    width: 600px;
+    height: 640px;
     margin-right: 55px;
     border-radius: 20px;
 }
@@ -182,6 +189,9 @@ a{
     color: inherit;
 }
 
+<<<<<<< HEAD
+
+=======
 #container-3{
     display: flex;
     flex-direction: row;
@@ -243,6 +253,7 @@ a{
 a:hover{
     background-color: black;
 }
+<<<<<<< HEAD
 
  /* FOOTER */
 
@@ -354,3 +365,6 @@ a:hover{
 
 /* FOOTER END */
 
+=======
+>>>>>>> 4fc1fe285d71c513de5f2d51e637f4e5549f3383
+>>>>>>> 06beb9b98735208009a1e96f093e8164a66cc647
