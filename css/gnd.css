@@ -191,3 +191,10 @@ p #overlay--text_1 {
         z-index:0;
     }
     .container-2 { position:relative; }
+
+
+#logo{
+    position: relative;
+    bottom: 910px;
+    height: 150px;
+}
