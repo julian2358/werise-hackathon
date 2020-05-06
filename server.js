@@ -42,8 +42,12 @@ app.get('/carbonfootprint.html', function(req, res) {
     res.sendFile(path.join(__dirname + '/carbonfootprint.html'));
 });
 
+app.get('/political.html', function(req, res) {
+    res.sendFile(path.join(__dirname + '/political.html'));
+});
 
-const port = process.env.PORT || 3042;
+
+const port = process.env.PORT || 3062;
 app.listen(port, () => {
     console.log(`this server is running on ${port}`)
 })
