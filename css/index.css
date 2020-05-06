@@ -118,8 +118,8 @@ html,body{
 }
 
 #side-img{
-    width: 600px;
-    height: 640px;
+    width: 300px;
+    height: 465px;
     margin-right: 55px;
     border-radius: 20px;
 }
@@ -144,18 +144,18 @@ html,body{
     border: 2px solid white;
     
     border-radius: 30px;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
-    background-color: #ffa600;
+    background-color: black;
     text-align: center;
 }
 
 .donate-btn{
-    background-color: purple;
+    background-color: black;
     border: 2px solid white;
     
     border-radius: 30px;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
    
     text-align: center;
