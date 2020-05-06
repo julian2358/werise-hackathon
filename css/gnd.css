@@ -87,7 +87,10 @@ a{
 }
 
 .video2{
-    opacity: 0.5;
+    opacity: 0.7;
+
+    filter: brightness(70%);
+
 }
 
 #bigtext-2{
@@ -125,7 +128,7 @@ a{
       top: 250px;
       right: 180px;
       display: flex;
-      color: black;
+      color: rgb(255, 241, 241);
       text-shadow: 0px 1px white;
       
   }
@@ -197,4 +200,87 @@ p #overlay--text_1 {
     position: relative;
     bottom: 910px;
     height: 150px;
+}
+
+
+#img-container{
+    position:relative;
+   
+    background-color: black    
+}
+
+.section-3{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+#container-3{
+    position: relative;
+    z-index: 1;
+    top: 200px;
+    color: white;
+    max-width: 1000px;
+    margin: auto;
+    line-height: 1.5em;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+/* img sizing */
+
+#img-wrap{
+    height: 100vh;
+    width: 100vw;
+    position:absolute;
+    z-index: 0;
+    opacity: 0.8;
+    filter: brightness(40%);
+}
+
+#h1--text__color{
+    color: #ffa600;
+}
+
+#sub-head{
+    font-weight: bolder;
+    
+}
+
+p1{
+    font-size: .8em;
+}
+
+p2{
+    font-size: .7em;
+    font-weight: bolder;
+}
+
+
+/* section 4 */
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.section-4{
+    background-color: #f2ffff;
 }
