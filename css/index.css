@@ -52,6 +52,9 @@ html,body{
    background: #ffa600;
    color:  white;
 }
+#navbar ul li a:hover{
+    background-color: black;
+}
 
 /* NAVBAR END */
 
@@ -239,9 +242,6 @@ a{
     border: 20px solid #91094d;
 }
 
-a:hover{
-    background-color: black;
-}
 
 
 
