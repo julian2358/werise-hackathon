@@ -1,0 +1,103 @@
+body{
+    background-color: #f2ffff;
+}
+#nav{
+     /* float: right;  */
+    margin: auto;
+    font-size: 2.0em;
+
+}
+
+#nav ul{
+    list-style-type: none;
+    text-decoration: none;
+ 
+    
+}
+
+#nav ul li{
+    display: inline-block;
+    color: #de9502;
+    font-family: 'Oswald', sans-serif;
+   padding-right: 45px;
+
+}
+#home--0{
+    height: 12%;
+    margin: auto;
+    width: 100%;
+    background-color: #2e2f30;
+    
+}
+
+
+
+/* CONTACT */
+
+#contactForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+   }
+   .formImage{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1555396273-755660f19034?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80') no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+    padding: 50px 50px;
+    max-height: 100%;
+    color: white;
+    text-align: center;
+   }
+   form{
+    padding: 50px 50px;
+    background: #de9502;
+    width: 400px;
+    height: 600px;
+    color: white;
+   }
+   #contactForm .contact-items{
+    margin-bottom: 20px;
+   }
+   #contactForm label {
+    display: block;
+    margin-bottom: 5px;
+   }
+   #contactForm input,
+   #contactForm textarea{
+    width: 100%;
+    padding: 10px;
+    border: 2px #ddd solid;
+   }
+   #contactForm textarea{
+    height: 200px;
+   }
+   #contactForm input:focus,
+   #contactForm textarea:focus{
+    outline: none;
+    border-color: #053031
+   }
+   .btn{
+   align-items: center;
+    background: #053031;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.7s;
+   }
+   .btn:hover{
+    background: #053031;
+   }
+   
+   
+   a{
+       text-decoration: none;
+       color: inherit;
+   }
+   
+   
+   

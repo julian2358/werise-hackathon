@@ -22,9 +22,7 @@ html,body{
 #nav{
     float: right;
     margin: auto;
-   
     font-size: 2.0em;
-  
 
 }
 
@@ -144,3 +142,5 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+
