@@ -1,0 +1,142 @@
+html,body{
+    font-family: 'Oswald', sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #f2ffff;
+    
+}
+
+.sec1{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#nav{
+    float: right;
+    margin: auto;
+    font-size: 2.0em;
+
+}
+
+#nav ul{
+    list-style-type: none;
+    text-decoration: none;
+ 
+}
+
+#nav ul li{
+    display: inline-block;
+    color: #de9502;
+    font-family: 'Oswald', sans-serif;
+    padding-right: 45px;
+
+}
+
+#home--0{
+    height: 12%;
+    margin: auto;
+    width: 100%;
+    background-color: #2e2f30;
+    
+}
+
+/* ////////////////HERO IMAGE///////////// */
+hero-image {
+    background-image: url("https://mosaictraveler.groveresortorlando.com/wp-content/uploads/2018/10/corporate-team-bonding-activities-1050x675.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: orange;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    
+  }
+  
+  .hero-text button:hover {
+    background-color:orange;
+    color: white;
+  }
+
+  /* ///////////////////////////// */
+
+  /* ////////////////HERO IMAGE///////////// */
+
+  body, html{
+    height: 100%;
+    margin: 0;
+  }
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://nicolekolenda.com/wp-content/uploads/2017/06/paper-team.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    
+  }
+  
+  .hero-text button:hover {
+    background-color:orange;
+    color: white;
+  }
+  .culture, p, h3{
+
+font-family: 'Oswald', sans-serif;
+  text-align:center;
+  padding:30px;
+  }
+  .container{
+   display: grid;
+   justify-content:center;
+    height:1000px; 
+  } 
+  .image{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-content: center;
+      height: 1000px;
+  }
+  .image, img{
+    height: 200px;
+    margin:10px;
+  }
+  
+
