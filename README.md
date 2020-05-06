@@ -14,10 +14,14 @@ Once you have that running visit localhost:port in your browswer to access the w
 
 # Built With
 
-..*
+
 1. NodeJS
 2. Express Js
 3. HTML5
 4. CSS3
 
 # Authors
+1. Vanessa Baker
+2. Ana Ruiz Rivera
+3. Julian Reeves
+4. Daniel Sanjurjo
