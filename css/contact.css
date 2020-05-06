@@ -129,7 +129,7 @@ html,body{
    }
    
    
-   
+
 /* FOOTER */
 
 footer{
@@ -171,7 +171,11 @@ footer{
 
 }
 
-
+.border{
+    width: 100px;
+    height: 4px;
+    background: #ffa600;
+}
 
 .news-form{
     display: flex;
@@ -179,17 +183,13 @@ footer{
     align-items: center;
     flex-wrap: wrap;
 }
-.border{
-    width: 100px;
-    height: 4px;
-    background: #ffa600;
-}
+
 .txtb{
     flex: 1;
     padding: 18px 40px;
     font-size: 16px;
-    color: #c0ccc2;
-    background: whitesmoke;
+    color: #2e2f30;
+    background: #ffa6004b;
     border: none;
     font-weight: 700;
     outline: none;
@@ -239,6 +239,3 @@ footer{
 }
 
 /* FOOTER END */
-
-   
-   
