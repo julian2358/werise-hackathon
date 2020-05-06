@@ -1,44 +1,35 @@
-body{
+
+html,body{
+    font-family: 'Oswald', sans-serif;
+    margin:0;
+    padding:0;
     background-color: #f2ffff;
-}
-#nav{
-     /* float: right;  */
-    margin: auto;
-    font-size: 2.0em;
-
-}
-
-#nav ul{
     list-style-type: none;
     text-decoration: none;
- 
-    
 }
-
-#nav ul li{
-    display: inline-block;
+#nav ul{
+display:flex;
+justify-content: flex-end;
+list-style-type: none;
+text-decoration: none;
+}
+#nav li{
     color: #de9502;
-    font-family: 'Oswald', sans-serif;
-   padding-right: 45px;
-
-}
-#home--0{
-    height: 12%;
-    margin: auto;
-    width: 100%;
-    background-color: #2e2f30;
+    margin:10px;
+    font-size: 1em;
     
 }
+    
 
 
-
+/* ////////////////////////////////////////////////// */
 /* CONTACT */
 
 #contactForm{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+    padding: 100px 100px;
    }
    .formImage{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1555396273-755660f19034?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80') no-repeat;
@@ -52,7 +43,7 @@ body{
    }
    form{
     padding: 50px 50px;
-    background: #de9502;
+    background: rgb(97, 155, 74);
     width: 400px;
     height: 600px;
     color: white;
@@ -94,7 +85,4 @@ body{
    }
    
    
-   
-   
-   
-   
+   /* ////////////////////////////////////////////////// */
