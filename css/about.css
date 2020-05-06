@@ -1,11 +1,10 @@
-
-body,html{
-    margin: 0;
-    padding: 0;
+html,body{
     font-family: 'Oswald', sans-serif;
-    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+    
 }
-
 
  /* NAVBAR */
 
@@ -496,7 +495,6 @@ float: left;
 }
 
 
-
 /* FOOTER */
 
 footer{
@@ -555,8 +553,8 @@ footer{
     flex: 1;
     padding: 18px 40px;
     font-size: 16px;
-    color: #c0ccc2;
-    background: whitesmoke;
+    color: #2e2f30;
+    background: #ffa6004b;
     border: none;
     font-weight: 700;
     outline: none;
