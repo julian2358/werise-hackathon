@@ -31,7 +31,6 @@ html,body{
     list-style-type: none;
     text-decoration: none;
  
-    
 }
 
 #nav ul li{
@@ -152,6 +151,9 @@ a{
     color: inherit;
 }
 
+<<<<<<< HEAD
+
+=======
 #container-3{
     display: flex;
     flex-direction: row;
@@ -213,3 +215,4 @@ a{
 a:hover{
     background-color: black;
 }
+>>>>>>> 4fc1fe285d71c513de5f2d51e637f4e5549f3383
