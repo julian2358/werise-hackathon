@@ -3,6 +3,7 @@ html,body{
     margin:0;
     padding:0;
     background-color: #f2ffff;
+    
 }
 
 .sec1{
@@ -91,11 +92,12 @@ html,body{
     width: 500px;
     height: 700px;
     margin-right: 55px;
+    border-radius: 20px;
 }
 
 #container{
-    max-width: 960px;
-    margin: auto;
+    max-width: 1260px;
+    margin: auto;   
     margin-top: 90px; 
     color: black;
     font-size: 30px;
@@ -121,6 +123,13 @@ html,body{
 
 .donate-btn{
     background-color: purple;
+    border: 2px solid white;
+    
+    border-radius: 30px;
+    font-size: 40px;
+    color: white;
+   
+    text-align: center;
 }
 
 .bold{
@@ -143,4 +152,60 @@ a{
     color: inherit;
 }
 
+#container-3{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    width: 100vw;
+    max-height: 1200px;
+    margin: auto;
 
+}
+
+#img-gnd{
+    background-image: url('https://static01.nyt.com/images/2019/02/20/climate/20CLI-GREENQANDA2/merlin_150320148_72cd2424-ed91-4f7e-bcf5-94b81ba4b650-superJumbo.jpg');
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    z-index:0;
+    opacity: 0.4;
+
+}
+#img-footprint{
+    background-image: url('https://s3.amazonaws.com/ctc-media/wp-content/uploads/20191203000453/shutterstock_1412034770-1-1080x675.png');
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+.overlay {
+    position:absolute;
+    top:2000px;
+    left:300px;
+    z-index:1;
+   
+}
+
+.overlay2 {
+    position:absolute;
+    top:2000px;
+    left: 920px;
+    z-index:1;
+   
+}
+
+.big-btn{
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px black;
+    border: 10px solid #11451a;
+    background-color: #11451a;
+    border-radius: 40px;
+   font-weight: bolder;
+}
+.big-btn:hover{
+    background-color: #91094d;
+    border: 20px solid #91094d;
+}
