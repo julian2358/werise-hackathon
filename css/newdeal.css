@@ -1,8 +1,11 @@
 
  /* NAVBAR */
-
- html{
+ * {
+    overflow:auto; /* or auto */
+    }
+ html,body{
     font-family: 'Oswald', sans-serif;
+    margin: 0;
  }
  .logo{
     width: 150px;
@@ -13,6 +16,7 @@
    color: white;
    overflow: auto;
    height: auto;
+   
 }
 
 
@@ -166,3 +170,156 @@ footer{
 
    
    
+
+
+/* first section */
+
+.section-1{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f6ff;
+}
+
+#gnd-head{
+    text-align: center;
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px white;
+}
+
+#container{
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+
+/* section 2 */
+
+.section-2{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+#container-0{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/59cc24c8e3df286f13ce044b/1544729395467-SXWK4TOM0MWR9SV3DFEF/ke17ZwdGBToddI8pDm48kDluiX-vI0nJzpa6WaxjmqB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQvGtpAgA0sjjUEvv713e3kxrmqkdemyZJuWMbsDSHsYfVgQDku0sADZhUngBXCbtA/Copy%2Bof%2BAlexandra%2BIglesia%2B12-10-18%2B%252810%2529.jpg?format=2500w');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    position: absolute;
+    text-align: center;
+    opacity: 0.7;
+    filter: brightness(50%);
+}
+
+#gnd-header{
+    color:#ffa600;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+#gnd-desc{
+    font-weight: bolder;
+   color: white;
+    font-size: 20px;
+    line-height: 1.5em;
+    
+}
+
+#gnd-overlay{
+    position: relative;
+    top: 300px;
+    left: 0px;
+    z-index: 1;
+    max-width: 960px;
+    margin: auto;
+}
+
+.color-effect{
+    color: #ffa600;
+}
+
+/* donation box */
+
+.donation-container{
+    margin-top: 20px;
+}
+
+#donate-msg{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+#donation-text{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#donate-btns{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 28%;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+}
+
+.btn-h1 {
+ padding: 25px; 
+ 
+ font-size: 20px;
+ 
+ 
+    border: 2px solid #8a074f;
+  
+    color: white;
+    background-color: #8a074f;
+    font-weight: bolder;
+}
+    
+.btn-h1:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+
+.btn-2{
+    padding: 10px;
+}
+
+/* section 5 */
+
+.section-5{
+    width: 100vw;
+    height: 50vw;
+    background-color: #f8f6e8;
+    display: block;
+    
+
+}
+
+.italics2{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.donation-container{
+    min-height: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
