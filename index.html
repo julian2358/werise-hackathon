@@ -4,40 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-    <section class="sec1">
-        <div id='home--0'>
-        <nav id= "nav">
+    <nav id="navbar">
+        <div class="container">
+            <img src="imgs/logo.png" class="logo" alt="logo">
             <ul>
-                <li> <a href='contact.html'>Contact</a></li>
-                <li> <a href='about.html'>About</a></li>
-                <li>Donate</li>
-                <li> <a href='greennewdeal.html'> Green New Deal </a></li>
-                <li>Carbon FootPrint</li>
+                <li><a class="current" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="greendeal.html">Green New Deal</a></li>
+                <li><a href="carbonconnect">Carbon Connections</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 
                 
             </ul>
-        </nav>
-    </div>
+        </div>
+    </nav>
 
-        <div id='home--1'> 
-           
+
+    <section class="sec1">
+       
+        <div id='home--1'>
+
 
         </div>
 
-        <img id='logo' src='imgs/28f6eaff-cea5-4a6c-b991-d37873e1987b_200x200.png'>
-        <div id='overlay--1'> 
+        
+       
+        <div id='overlay--1'>
             <h1>Together We RISE <br>
-                <span id="longer-desc"> We're building an army of young people to stop climate change and create millions of good jobs in the process. </span>
+                <span id="longer-desc"> We're building an army of young people to stop climate change and create
+                    millions of good jobs in the process. </span>
             </h1>
             <br>
-   
+
         </div>
     </section>
 
+ 
     <section class="sec2">
         <div id="container">
         <div id='img-container'>
@@ -74,6 +82,45 @@
 
     </section>
 
-<script src= "server.js"> </script>
+    <footer>
+        <div class="footer-container">
+            <div class="left-col">
+                <img src="imgs/logo.png" alt="logo">
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+                <p class="rights">© 2020 WeRise All Rights Reserved.</p>
+            </div>
+
+            <div class="right-col">
+                <h1><span>Our</span> Newsletter</h1>
+                <div class="border"></div>
+                <p>Enter your email to stay updated</p>
+                <form action="" class="news-form">
+                    <input type="text" class="txtb" placeholder="Enter Your Email">
+                    <input type="submit" id="btn" value="submit">
+                </form>
+
+            </div>
+
+        </div>
+
+
+
+    </footer>
+
+    <script src='server.js'> </script>
 </body>
+
 </html>
+
+
+
+
+
+
+   
