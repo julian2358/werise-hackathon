@@ -47,7 +47,8 @@ app.get('/political.html', function(req, res) {
 });
 
 
-const port = process.env.PORT || 3021;
+const port = process.env.PORT || 3223;
 app.listen(port, () => {
+
     console.log(`this server is running on ${port}`)
 })
