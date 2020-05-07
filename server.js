@@ -49,7 +49,7 @@ app.get('/political.html', function(req, res) {
 
 
 // port and server setup
-const port = process.env.PORT || 5400;
+const port = process.env.PORT || 5500;
 app.listen(port, () => {
 
     console.log(`this server is running on ${port}`)
