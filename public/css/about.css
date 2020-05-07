@@ -222,7 +222,7 @@ p #overlay--text_1 {
 
  .container-2 video{
    
-
+    overflow: hidden;
         position:relative;
         z-index:0;
     }
