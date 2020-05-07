@@ -16,6 +16,7 @@ html,body{
 }
 #navbar {
    background: #8a074f;
+   font-weight: bolder;
    color: white;
    overflow: auto;
    height: auto;
