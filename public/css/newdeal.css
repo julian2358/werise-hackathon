@@ -68,12 +68,9 @@ footer{
 
 .footer-container{
     max-width: 1300px;
-    margin: "auto";
-    padding: 0 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin: auto;
 }
 
 .logo{
@@ -117,8 +114,8 @@ footer{
     flex: 1;
     padding: 18px 40px;
     font-size: 16px;
-    color: #c0ccc2;
-    background: whitesmoke;
+    color: #ffa600;
+    background: #ffa60065;
     border: none;
     font-weight: 700;
     outline: none;
@@ -168,6 +165,9 @@ footer{
 }
 
 /* FOOTER END */
+
+   
+   
 
    
    
