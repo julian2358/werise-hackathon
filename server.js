@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 
 // add css and images
 app.use(express.static('public'))
-app.use(express.static(__dirname + '/public'));
+
 
 
 // routing
@@ -49,7 +49,7 @@ app.get('/political.html', function(req, res) {
 
 
 // port and server setup
-const port = process.env.PORT || 5200;
+const port = process.env.PORT || 5400;
 app.listen(port, () => {
 
     console.log(`this server is running on ${port}`)

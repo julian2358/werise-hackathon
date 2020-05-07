@@ -16,6 +16,7 @@ html,body{
    background: #8a074f;
    color: white;
    overflow: auto;
+   font-weight: bolder;
    height: auto;
 }
 
@@ -363,4 +364,10 @@ footer{
 /* FOOTER END */
 
    
-   
+   .button-promt{
+       color: #522d4d;
+       font-weight: bolder;
+       text-align: center;
+       text-shadow: 1px 1px white;
+       font-size: 30px;
+   }
