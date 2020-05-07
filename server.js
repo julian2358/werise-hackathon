@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 
 // add css and images
 app.use(express.static('public'))
-app.use(express.static(__dirname + '/public'));
+
 
 
 // routing

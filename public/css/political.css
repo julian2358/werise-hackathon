@@ -11,6 +11,7 @@ html{
    background: #8a074f;
    color: white;
    overflow: auto;
+   font-weight: bolder;
    height: auto;
 }
 

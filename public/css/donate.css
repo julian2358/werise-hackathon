@@ -19,8 +19,10 @@ html,body{
  .logo{
   width: 150px;
   height: 150px;
+  
 }
 #navbar {
+  font-weight: bolder;
  background: #8a074f;
  color: white;
  overflow: auto;
