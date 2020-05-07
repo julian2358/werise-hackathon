@@ -1,8 +1,9 @@
 body,html{
     margin: 0;
     padding: 0;
-    font-family: 'Oswald', sans-serif;
     box-sizing: border-box;
+    background-color: #ede7d9;
+    color: #343434;
 }
 
 
@@ -11,10 +12,6 @@ body,html{
 
 
 /* NAVBAR */
-
-html{
-    font-family: 'Oswald', sans-serif;
- }
  .logo{
     width: 150px;
     height: 150px;
@@ -63,13 +60,43 @@ html{
 /* NAVBAR END */
 
 
+h1{
+    font-size: 35px;
+}
+p{
+   font-size: 25px; 
+   
+}
+
+#text-bullet-centered {
+    margin: auto;
+}
+
+
+.bullets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px;
+    padding: 125px;
+}
+
+.endorse{
+    font-style: italic;
+}
+
+
+  
+
+
 
 /* FOOTER */
 
 footer{
     background: whitesmoke;
     padding: 90px 0;
-    color: black;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer-container{
@@ -103,10 +130,17 @@ footer{
 
 .right-col h1{
     font-size: 26px;
+    
 
 }
 
 
+.border{
+    width: 100px;
+    height: 4px;
+    background: #ffa600;
+    
+}
 
 .news-form{
     display: flex;
@@ -114,17 +148,13 @@ footer{
     align-items: center;
     flex-wrap: wrap;
 }
-.border{
-    width: 100px;
-    height: 4px;
-    background: #ffa600;
-}
+
 .txtb{
     flex: 1;
     padding: 18px 40px;
     font-size: 16px;
-    color:#ffa600;
-    background: whitesmoke;
+    color: #2e2f30;
+    background: #ffa6004b;
     border: none;
     font-weight: 700;
     outline: none;
@@ -164,6 +194,10 @@ footer{
        width: 100%;
        text-align: center;
    }
+
+   .navbar{
+    max-width: 600px;
+}
 }
 
 @media screen and (max-width:700px){
@@ -174,6 +208,3 @@ footer{
 }
 
 /* FOOTER END */
-
-   
-   

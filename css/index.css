@@ -143,26 +143,6 @@ html,body{
     text-shadow: 1px 2px white;
 }
 
-.about-btn{
-    border: 2px solid white;
-    
-    border-radius: 30px;
-    font-size: 30px;
-    color: white;
-    background-color: black;
-    text-align: center;
-}
-
-.donate-btn{
-    background-color: black;
-    border: 2px solid white;
-    
-    border-radius: 30px;
-    font-size: 30px;
-    color: white;
-   
-    text-align: center;
-}
 
 .bold{
    text-decoration: bolder;
@@ -228,6 +208,17 @@ a{
    
 }
 
+.buttons{
+    display: flex;
+   justify-content: space-around;
+   padding-right: 30px;
+   padding-left: 30px;
+   padding-top: 200px;
+   
+}
+
+
+
 .big-btn{
     font-size: 30px;
     color: white;
@@ -249,6 +240,8 @@ a{
 footer{
     background: whitesmoke;
     padding: 90px 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer-container{
@@ -282,13 +275,16 @@ footer{
 
 .right-col h1{
     font-size: 26px;
+    
 
 }
+
 
 .border{
     width: 100px;
     height: 4px;
     background: #ffa600;
+    
 }
 
 .news-form{

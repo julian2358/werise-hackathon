@@ -130,11 +130,14 @@ html,body{
    
    
 
+
 /* FOOTER */
 
 footer{
     background: whitesmoke;
     padding: 90px 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer-container{
@@ -168,13 +171,16 @@ footer{
 
 .right-col h1{
     font-size: 26px;
+    
 
 }
+
 
 .border{
     width: 100px;
     height: 4px;
     background: #ffa600;
+    
 }
 
 .news-form{
