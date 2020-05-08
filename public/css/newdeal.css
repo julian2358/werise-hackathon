@@ -369,6 +369,7 @@ footer{
     text-align: center;
 }
 
-.help{
+#help{
     margin: auto;
+    background-color:#f8f6e8;
 }
