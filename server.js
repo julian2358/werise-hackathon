@@ -53,7 +53,7 @@ app.get('/political.html', function(req, res) {
 
 
 // port and server setup
-const port = process.env.PORT || 6540;
+const port = process.env.PORT || 6440;
 app.listen(port, () => {
 
     console.log(`this server is running on ${port}`)
@@ -79,7 +79,7 @@ app.post('/representatives',(req, res) => {
 request(api_url, { json: true}, function(err, response,body){
     if(err){
         
-        console.log(body);
+        
     }
     else{
     //api results
