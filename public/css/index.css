@@ -345,6 +345,12 @@ footer{
    opacity: .7;
 }
 
+/* FOOTER END  */
+
+
+
+
+/* MEDIA QUERIES */
 @media screen and (max-width){
    .footer-container{
        max-width: 600px;
@@ -367,10 +373,10 @@ footer{
    }
 }
 
-/* FOOTER END */
+/* ------ */
 
-   
-   
+
+ 
    
    .button-promt{
        color: #522d4d;
