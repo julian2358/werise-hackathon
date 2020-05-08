@@ -75,6 +75,7 @@ h1{
 }
 
 
+
 .headshots {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -104,9 +105,16 @@ h1{
       display: block;
       border: 1px #343434 solid;
       content: "";
-      margin-left: 22px;
-      margin-right: 22px;
+      margin-left: 25%;
+      
   }
+
+  .caption h1::before{
+    display: block;
+    border: 1px #343434 solid;
+    content: "";
+    margin-right: 25%;
+}
 
 /* FOOTER */
 

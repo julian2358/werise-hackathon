@@ -166,11 +166,7 @@ font-family: 'Oswald', sans-serif;
       justify-content: center;
       height: 1000px;
   }
-  .image, img{
-    height: 200px;
-    margin:10px;
-  }
-
+ 
   
 
 
@@ -309,8 +305,20 @@ article h2{
 
 }
 
+.donate-border{
+  border: #ffa600 2px solid;
+}
  
- 
+#headline{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 35px;
+}
+
+#headline span{
+  text-transform: uppercase;
+}
+
 
 .donation-container{
   background-color: white;
@@ -370,9 +378,9 @@ font-size: 20px;
 #container {
   background: 
     linear-gradient(
-      rgba(0, 128, 0, 0.507),
-      #8a074f86, 
-      #ffa60083
+      rgba(0, 128, 0, 0.603),
+      #8a074fa9, 
+      #ffa600b4
     ),
     url(/imgs/newimg.jpg);
     background-size:     cover;                      /* <------ */
