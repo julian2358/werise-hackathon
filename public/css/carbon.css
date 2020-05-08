@@ -273,7 +273,8 @@ h1 a, h1 a:hover {
  
 .psa{
     border: 1px solid white;
-    opacity: 0.6;
+    font-weight: bolder;
+    opacity: 0.9;
 }
 
 .btn{
