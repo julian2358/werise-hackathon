@@ -5,8 +5,8 @@ const app = express();
 const path = require('path');
 const bodyParser = require("body-parser");
 const html = require('html')
-var addy;
-//port 
+
+//setup
 
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded());
@@ -53,7 +53,7 @@ app.get('/political.html', function(req, res) {
 
 
 // port and server setup
-const port = process.env.PORT || 6440;
+const port = process.env.PORT || 6640;
 app.listen(port, () => {
 
     console.log(`this server is running on ${port}`)
@@ -63,16 +63,9 @@ app.listen(port, () => {
 // api
 
 
-app.get('/representatives.html',(req, res) => {
-
-    
-    res.json()
-})
-
-
 //submit button post request 
 app.post('/representatives',(req, res) => {
-    let addy = req.body;
+   
    //api query
     const api_url= `https://www.googleapis.com/civicinfo/v2/representatives?key=AIzaSyDOveHFIk2BsWevyQ4J6IO9b696e7iT59E&address=${req.body.adress}}`
 //api call
