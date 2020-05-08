@@ -1,0 +1,29 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "We Rise is a poltical activist orginization and political action committe that is focused on the number one issue facing the planet, climate change. We're building an army of young people to stop climate change and create millions of good jobs in the process. Were doing this by fighting for progressive legizlation and helping to elect leaders that represent the best interest of our planets future.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "html": "^1.0.0",
+    "parth": "^4.2.3",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julian2358/werise-hackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julian2358/werise-hackathon/issues"
+  },
+  "homepage": "https://github.com/julian2358/werise-hackathon#readme"
+}
