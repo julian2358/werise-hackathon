@@ -4,7 +4,46 @@
 <!-- CSS (load bootstrap from a CDN) -->
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <style>
+    .name{
+        list-style-type: none;
+        font-weight: bolder;
+    }
     body    { padding-top:50px; }
+    .poli-img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .col-sm-8{
+        display: inline;
+       
+        
+    }
+
+    .politician{
+       max-height: 1000px;
+       margin: auto;
+       
+      
+        border: 3px solid black;
+    }
+    .politician ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     
+    }
+    .politician ul li {
+      font-size: 40px;
+      
+     
+    }
+    .well{
+        text-align: center;
+        
+    }
+
+
 </style>
 <!-- views/partials/header.ejs -->
 
@@ -14,12 +53,12 @@
         <div class="navbar-header">
             <a class="navbar-brand" href="#">
                 <span class="glyphicon glyphicon glyphicon-tree-deciduous"></span>
-                EJS Is Fun
+              
             </a>
     
             <ul class="nav navbar-nav">
                 <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
+                <li><a href="/carbonfootprint.html">Return to last page</a></li>
             </ul>
         </div>
     
@@ -30,21 +69,40 @@
         <div class="row">
             <div class="col-sm-8">    
                 <div class="jumbotron">
-                    <h1>Your Representives in <?-JSON.stringify(data)?></h1>
-                    <p>Welcome to templating using EJS</p>
+                    <h1>Your Representives in <?-JSON.stringify(data["normalizedInput"]['city'])?></h1>
+                    <p><?-JSON.stringify(data["normalizedInput"][`line1`])?></p>
+                    
                 </div>
             </div>
-        
+           
+
             <div class="col-sm-4">        
                 <div class="well">
-                    <h3>Look I'm A Sidebar!</h3>
+                    <h1>Your Representives:</h1>
+                   
+                       
+                        
+                    
                 </div>
             </div>
 
-            
+            <div class="col-sm-8">
+                <!-- loop that populates page with data -->
+                <? for(i in data.officials) { ?>
+                <div class='politician'> <img class='poli-img'src=<?-JSON.stringify(data.officials[i]['photoUrl'] ) || 'https://iupac.org/wp-content/uploads/2018/05/default-avatar.png' ?> >
+                
+                    <ul>
+                    <li class='name'> Name: <?-JSON.stringify(data.officials[i]['name']) ?> </li>
+                    <li class='name'> Party: <?-JSON.stringify(data.officials[i]['party']) ?> </li>
+                    <li class='name'> Phone: <?-JSON.stringify(data.officials[i]['phones'][0]) ?> </li>
+                    <li class='name'> Webpage: <?-JSON.stringify(data.officials[i].urls) ?> </li>
+                    </ul>
+                </div>
+                <?   } ?>
+            </div>
             
         </div>
         </main>
         
-    <p class="text-center text-muted">© Copyright 2014 The Awesome People</p>
+    <p class="text-center text-muted">Powered by Google's Civic Information API</p>
     

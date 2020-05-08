@@ -1,8 +1,7 @@
 html,body{
-    font-family: 'Oswald', sans-serif;
     margin:0;
     padding:0;
-    background-color: #f2ffff;
+    background-color: whitesmoke;
 
     
 }
@@ -109,7 +108,25 @@ hero-image {
   }
 
   /* ///////////////////////////// */
+.icon-container{
+  display: flex;
+  align-items: center;
+}
 
+  .icons i{
+    color: #8a074f;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  #icons-2{
+    color: green;
+  }
+
+  #icons-3{
+    color:#ffa600;
+  }
   /* ////////////////HERO IMAGE///////////// */
 
   body, html{
@@ -149,17 +166,13 @@ hero-image {
     background-color:orange;
     color: white;
   }
-  .culture, p, h3{
+  .culture, p{
 
 font-family: 'Oswald', sans-serif;
   text-align:center;
   padding:30px;
   }
-  .container{
-   display: grid;
-   justify-content:center;
-    height:1000px; 
-  } 
+
   .image{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -349,6 +362,7 @@ article h2{
   max-width: 600px;
   margin: auto;
   padding: 30px;
+  text-transform: uppercase;
 }
 
 .btn-h1 {
