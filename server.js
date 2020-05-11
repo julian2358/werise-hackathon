@@ -53,14 +53,14 @@ app.get('/political.html', function(req, res) {
 
 
 // port and server setup
-const port = process.env.PORT || 6640;
+const port = process.env.PORT || 7740;
 app.listen(port, () => {
 
     console.log(`this server is running on ${port}`)
 })
 
 
-// api
+// rep finder api
 
 
 //submit button post request 
@@ -76,8 +76,8 @@ request(api_url, { json: true}, function(err, response,body){
     }
     else{
     //api results
-        let data =(body)
-        console.log(body);
+        let data = (body)
+        
         res.render('rep', {data: data, delimiter: '?'});
     }
 
